@@ -10,7 +10,7 @@ An interactive, gesture-based discovery web application developed for **Eindhove
 As of January 2026, a live demo of the application is available at:  
 **[crashplace.nl/swipemeup](https://crashplace.nl/swipemeup)**
 
----
+
 
 ## 🚀 Features and Architecture
 
@@ -33,7 +33,7 @@ The application balances security with the need for rich content:
 * **Standard Content:** Card data (names, basic info) is rendered using standard Vue template interpolation, leveraging Vue’s built-in XSS protection.
 * **Match Screen Purification:** Because the matching screen allows for active links and formatted messages, the input is sanitized via `dompurify` during the preprocessing stage to ensure only safe HTML is rendered.
 
----
+
 
 ## 🛠️ Data Preprocessing
 
@@ -62,7 +62,7 @@ Then run:
 node preprocessing/process.cjs
 ```
 
----
+
 
 ## 💻 Installation & Build
 
