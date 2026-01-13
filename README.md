@@ -68,8 +68,8 @@ node preprocessing/process.cjs
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/swipe-me-up-tue.git](https://github.com/your-username/swipe-me-up-tue.git)
-cd swipe-me-up-tue
+git clone [https://github.com/kalkoen/swipe-me-up.git](https://github.com/kalkoen/swipe-me-up.git)
+cd swipe-me-up
 ```
 
 ### 2. Install dependencies
