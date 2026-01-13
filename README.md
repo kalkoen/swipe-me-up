@@ -42,7 +42,8 @@ The project includes a dedicated pipeline in the `/preprocessing` directory to t
 ### The Pipeline (`process.cjs`)
 To streamline data collection from 100+ external organizations, I developed a custom script that bridges the gap between raw Microsoft Forms exports and the production build. 
 
-**[Add your specific details here, such as:]**
+The script was written for [this exact Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=R_J9zM5gD0qddXBM9g78ZIi9tg9wlKFPrFHtMXiHa5hUMlQ0REVRQ1pTNFlKR05UNVpJQVBaS1JVOS4u&sharetoken=RI7XMRztvH1jTHYnWhkw). Changes in the Form may break `process.cjs`, requiring manual changes in this. preprocessing script. Adding or changing subtitles of questions does **not** break the script.
+
 * Generates application-ready data in the `public/profiles` folder.
 * Turns Sharepoint image/video hyperlinks in the Forms results into local paths, and copies the content to the public folder.
 * Anonimizes submissions: information about the submitter is not transferred application-ready data, information that is asked in the Forms in case a submitter needs to be contacted about their submission
